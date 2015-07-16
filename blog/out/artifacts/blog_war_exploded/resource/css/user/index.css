@@ -1,0 +1,19 @@
+.wrapper {
+    
+}
+
+.header {
+    position: relative;
+    height: 30%;
+    width: 100%;
+}
+
+.background {
+    float: left;
+}
+
+.name {
+    position: relative;
+    height: 10%;
+    width: 15%;
+}
