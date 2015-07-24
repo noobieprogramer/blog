@@ -7,18 +7,5 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
-  String path = request.getContextPath();
-  String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
+  request.getRequestDispatcher("index/index").forward(request, response);
 %>
-<html>
-  <head>
-    <title></title>
-    <base href="<%=basePath%>">
-    <link rel="stylesheet" href="css/index.css">
-  </head>
-  <body>
-    <h2>web</h2>
-    <h3>やりましだね</h3>
-    <h4>やり直す</h4>
-  </body>
-</html>
